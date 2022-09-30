@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV template</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="https://sysnetnotes.blogspot.com/ target="_blank" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">MY Blog</a>
+        <a href="http://shabeeribm.github.io/dfir" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">DFIR Tools</a>
+        <a href="https://www.credly.com/users/shabeeribm/badges" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">My Badges</a>
+        <a href="https://linktr.ee/shabeeribm" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">Linktr.ee</a>
+        <a href="https://www.dibiz.com/shabeeribm" target="_blank" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Contact Me</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://sysnetnotes.blogspot.com/" target="_blank">
+              <i data-feather="link"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://wa.me/0097433908540" target="_blank">
+             <i data-feather="message-circle"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.credly.com/users/shabeeribm/badges" target="_blank">
+             <i data-feather="award"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/shabeeribm/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="/resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="https://sysnetnotes.blogspot.com/" target="_blank" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">MY Blog</a>
+          <a href="http://shabeeribm.github.io/dfir" target="_blank" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">DFIR Tools</a>
+          <a href="https://www.linkedin.com/in/shabeeribm/" target="_blank" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">LinkedIn</a>
+          <a href="https://www.credly.com/users/shabeeribm/badges" target="_blank" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">My Badges</a>
+          <a href="https://linktr.ee/shabeeribm" target="_blank" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Linktr.ee</a>
+          <a href="https://www.dibiz.com/shabeeribm" target="_blank" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">Contact Me</a>
+          </div>
+        <div class="content-container w3-margin-top-2">
+        <!--HOME SECTION-->
+        <div id="home" class="home w3-container w3-margin-top-2 w3-cursive">
+        <h1>Shabeer <font color="red"><b>I</b></font>brahim</h1>
+        <h4></b></font>  GCFA <font color="red"><b>|</b></font>  PCNSA <font color="red"><b>|</b></font>  CEH <font color="red"><b>|</b></font>  CCNA <font color="red"><b>|</b></font>  CCNP </h4>
+
+        
+        </p></p>
+        </div>
+
+<!--ABOUT SECTION-->
+<div id="about" class="w3-container w3-margin-top-10-percent w3-cursive w3-large">
+<h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+<div class="w3-margin-top-2" style="font-weight: 500;"></div></p>
+<p>Data-driven and detail-oriented cybersecurity analyst with more than eight years of experience in cyber and networking security domain
+</p>
+</div>
+
+
+
+            
+
+            <!--MY Certification-->
+          <div id="contact" class="w3-container w3-margin-top-10-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Certifications</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;"></div></p>
+<ul>
+  
+  <li>GIAC Certified Forensic Analyst <b> (GCFA)</b></li>
+  <li>Palo Alto Networks Certified Network Security Administrator<b> (PCNSA)</b></li>
+  <li>Cisco Certified Network Associate <b>(CCNA)</b></li>
+  <li>Cisco Certified Network Associate <b>(CCNA Security)</b></li>
+  <li>Cisco Certified Network Professional <b>(CCNP R&S)</b> </li>
+  <li>Certified Ethical Hacker<b> (C|EH)</b></li>
+  <li>Attivo Administration Fundamentals v4.2</li>
+</ul>
+</div>
+              <!--Trainings-->
+          <div id="contact" class="w3-container w3-margin-top-10-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Trainings</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+<ul>
+  <li> CyberCrime Prevention training by MOI Qatar</li>
+  <li><a href="https://www.sans.org/cyber-security-courses/advanced-incident-response-threat-hunting-training/" target="_blank"  >SANS FOR508: Advanced Digital Forensics, Incident Response, and Threat Hunting</a></li>
+  <li><a href="https://www.sans.org/cyber-security-courses/advanced-network-forensics-threat-hunting-incident-response/" target="_blank"  >SANS FOR572: Advanced Network Forensics & Analysis</a></li>
+  <li>Tenable.sc scanning and Analysis training</li>
+  <li>Carbon BLack AppControl Training</li>
+  <li>Carbon BLack EDR Training</li>
+  <li>Attivo Network Administration training</li>
+  <li>Implementing and Configuring Cisco Identity Services Engine (SISE) training</li>
+</ul>
+        
+         </div>   
+ 
+          <!--TECHNICAL SKILLS-->
+          <div id="contact" class="w3-container w3-margin-top-10-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Technical Skills</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+  <ul>
+  <li> Incident Response</li>
+  <li> Threat Intel</li>
+  <li>SOC Analysis</li>
+  <li>Windows Forensics</li>
+  <li>Vulnerability Management</li>
+  
+</ul>  
+            </div>
+          </div>
+
+<!--MY Education-->
+          <div id="contact" class="w3-container w3-margin-top-10-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">Education</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+                <h4>B-Tec in Electronics and Communication from MES College of Engineering</h4>
+                <p>2003 - 2007 </p>
+                          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2022 - Shabeer</p>
+           
+        <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
